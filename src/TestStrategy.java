@@ -14,12 +14,12 @@ import java.util.zip.DataFormatException;
 public class TestStrategy {
 
     public static void main(String[] args) throws DataFormatException, FileNotFoundException {
-        String fichierDonnees = "cartes/spiralOfMadness-50x50.map";  // Chemin vers le fichier de carte
+        String fichierDonnees = "cartes/carteSujet.map";  // Chemin vers le fichier de carte
         DonneesSimulation donnees = LecteurDonnees.creeDonnees(fichierDonnees);
 
-        int largeur = 1200;
-        int hauteur = 1200;
-        GUISimulator gui = new GUISimulator(largeur, hauteur, Color.WHITE);  // Initialisation de la GUI
+        int largeur = 600;
+        int hauteur = 800;
+        GUISimulator gui = new GUISimulator(largeur, hauteur, Color.BLACK);  // Initialisation de la GUI
 
         Simulateur simulateur = new Simulateur(gui, donnees);
 

@@ -16,6 +16,7 @@ The simulation models a team of firefighting robots operating on a grid-based ma
 - Strategic fire-fighting coordination
 
 ## Project Structure
+
 ```bash
 project/
 ├── src/
@@ -36,7 +37,6 @@ project/
 └── bin/                        # Compiled class files
 ```
 
-
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher
@@ -48,6 +48,7 @@ project/
 1. Clone the repository or download the source code
 2. Open the project in IntelliJ IDEA, or
 3. Use command line compilation with make:
+
 ```bash
   make all
 ```
@@ -69,6 +70,7 @@ make exeScenario1    # Run first scenario
 make exeScenario2    # Run second scenario
 make exeScenario3    # Run third scenario
 ```
+
 ## Key Components
 
 ### Map System
@@ -161,3 +163,9 @@ To extend the simulation:
 #### Academic Context
 
 - This project was developed as part of the Object-Oriented Programming course at Grenoble INP UGA - Ensimag for the academic year 2024 - 2025.
+
+#### Demo of Code 
+
+<div align="center">
+  <img src="img/Robots.gif" alt="MR-preview" width="500" height="500">
+</div>
